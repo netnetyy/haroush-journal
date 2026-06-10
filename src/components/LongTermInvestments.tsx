@@ -30,7 +30,7 @@ interface StoredData {
   snapshots: ValueSnapshot[];
 }
 
-const LOCAL_KEY = 'longterm_investments';
+const LOCAL_KEY = 'haroush-longterm-investments';
 const API_KEY_STORAGE = 'finnhub_api_key';
 const SUPABASE_ROW_ID = 2;
 
