@@ -1,7 +1,7 @@
 import type { AppData } from '../types/trade';
 import { supabase } from './supabase';
 
-const STORAGE_KEY = 'trading-journal-data';
+const STORAGE_KEY = 'haroush-journal-data';
 
 function migrate(parsed: AppData): AppData {
   if (parsed.portfolioBaseValue === undefined) {
